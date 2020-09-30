@@ -9,7 +9,7 @@ server.listen(3000)
 
 server.on('connection', (s) => {
 
-    // ad = s.address().address
+    ad = s.address().address
     // pt = s.address().port
 
 })
